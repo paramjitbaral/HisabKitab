@@ -1,0 +1,6 @@
+{
+  "name": "MiniLedger",
+  "description": "Simple Personal Loan Tracker to record money lent to friends, repayment status, and overdue amounts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
