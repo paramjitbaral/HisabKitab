@@ -1,0 +1,29 @@
+{
+  "name": "miniledger-backend",
+  "version": "1.0.0",
+  "description": "MiniLedger - Simple Personal Loan Tracker Backend (Express + TypeScript + PostgreSQL)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "npm run build && node dist/test/e2e.js"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.11",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.25",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.19.43",
+    "@types/pg": "^8.23.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
